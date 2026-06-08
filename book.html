@@ -1,0 +1,382 @@
+1<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Your Detail | Elite Finish Auto</title>
+<meta name="description" content="Book your mobile car detail with Elite Finish Auto in London, Ontario and surrounding areas. Choose your vehicle, package and preferred time.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#2e9bd6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=34">
+<link rel="canonical" href="https://www.elitefinishauto.ca/book.html">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="180x180" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Book Your Detail | Elite Finish Auto">
+<meta property="og:description" content="Book your mobile car detail with Elite Finish Auto in London, Ontario and surrounding areas. Choose your vehicle, package and preferred time.">
+<meta property="og:url" content="https://www.elitefinishauto.ca/book.html">
+<meta property="og:site_name" content="Elite Finish Auto">
+<meta property="og:locale" content="en_CA">
+<meta property="og:image" content="https://www.elitefinishauto.ca/images/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Book Your Detail | Elite Finish Auto">
+<meta name="twitter:description" content="Book your mobile car detail with Elite Finish Auto in London, Ontario and surrounding areas. Choose your vehicle, package and preferred time.">
+<meta name="twitter:image" content="https://www.elitefinishauto.ca/images/og-image.jpg">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><img class="mark" width="34" height="34" src="images/bluestar.png" alt="Elite Finish Auto logo"> Elite Finish Auto</a>
+    <div class="nav-links" id="menu">
+      <a href="index.html#areas">Service Areas</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog/index.html">Tips</a>
+      <a href="book.html" class="nav-cta">Book now</a>
+    </div>
+    <button class="nav-toggle" id="toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<section class="booking">
+  <div class="container">
+    <div class="booking-head">
+      <span class="eyebrow">Book online</span>
+      <h1 style="font-size:clamp(2rem,5vw,3rem)">Book your detail</h1>
+      <p>Three quick steps. We'll confirm your appointment by phone or text.</p>
+    </div>
+
+    <!-- Progress -->
+    <div class="steps-bar">
+      <div class="stp active" data-step="1"><div class="dot">1</div>Vehicle</div>
+      <div class="stp" data-step="2"><div class="dot">2</div>Package</div>
+      <div class="stp" data-step="3"><div class="dot">3</div>Details</div>
+    </div>
+
+    <form id="bookForm" action="https://formspree.io/f/mzzrdqvr" method="POST">
+      <input type="hidden" name="_subject" value="New booking request — Elite Finish Auto">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="Vehicle" id="vehicleField">
+
+      <!-- STEP 1: vehicle -->
+      <div class="bk-step active" id="step1">
+        <h2 class="bk-q">What are we cleaning?</h2>
+        <div class="veh-grid">
+          <div class="veh-card" data-veh="sedan" tabindex="0" role="button" aria-label="Choose Sedan">
+            <svg class="veh-svg" viewBox="0 0 170 90" aria-hidden="true">
+              <rect x="48" y="26" width="66" height="26" rx="11" fill="#5bb8e8"/>
+              <rect x="14" y="44" width="142" height="24" rx="12" fill="#2e9bd6"/>
+              <rect x="55" y="31" width="24" height="16" rx="4" fill="#eaf5fc"/>
+              <rect x="84" y="31" width="26" height="16" rx="4" fill="#eaf5fc"/>
+              <g class="wheel"><circle cx="52" cy="70" r="13" fill="#0c2a3a"/><circle cx="52" cy="70" r="5.5" fill="#cfe9f8"/><rect x="51" y="59" width="2" height="22" fill="#cfe9f8"/></g>
+              <g class="wheel"><circle cx="120" cy="70" r="13" fill="#0c2a3a"/><circle cx="120" cy="70" r="5.5" fill="#cfe9f8"/><rect x="119" y="59" width="2" height="22" fill="#cfe9f8"/></g>
+            </svg>
+            <h3>Sedan</h3>
+            <p>Cars &amp; coupes</p>
+          </div>
+          <div class="veh-card" data-veh="suv" tabindex="0" role="button" aria-label="Choose SUV">
+            <svg class="veh-svg" viewBox="0 0 170 90" aria-hidden="true">
+              <rect x="40" y="18" width="84" height="34" rx="9" fill="#5bb8e8"/>
+              <rect x="12" y="42" width="146" height="26" rx="12" fill="#2e9bd6"/>
+              <rect x="48" y="24" width="30" height="22" rx="4" fill="#eaf5fc"/>
+              <rect x="84" y="24" width="32" height="22" rx="4" fill="#eaf5fc"/>
+              <g class="wheel"><circle cx="50" cy="71" r="14" fill="#0c2a3a"/><circle cx="50" cy="71" r="6" fill="#cfe9f8"/><rect x="49" y="59" width="2" height="24" fill="#cfe9f8"/></g>
+              <g class="wheel"><circle cx="122" cy="71" r="14" fill="#0c2a3a"/><circle cx="122" cy="71" r="6" fill="#cfe9f8"/><rect x="121" y="59" width="2" height="24" fill="#cfe9f8"/></g>
+            </svg>
+            <h3>SUV</h3>
+            <p>Crossovers &amp; SUVs</p>
+          </div>
+          <div class="veh-card" data-veh="large" tabindex="0" role="button" aria-label="Choose 7-Seater, Pickup or Full-size">
+            <svg class="veh-svg" viewBox="0 0 170 90" aria-hidden="true">
+              <rect x="26" y="20" width="52" height="32" rx="8" fill="#5bb8e8"/>
+              <rect x="12" y="44" width="150" height="24" rx="11" fill="#2e9bd6"/>
+              <rect x="80" y="32" width="78" height="14" rx="3" fill="#247fb0"/>
+              <rect x="33" y="26" width="38" height="20" rx="4" fill="#eaf5fc"/>
+              <g class="wheel"><circle cx="48" cy="70" r="14" fill="#0c2a3a"/><circle cx="48" cy="70" r="6" fill="#cfe9f8"/><rect x="47" y="58" width="2" height="24" fill="#cfe9f8"/></g>
+              <g class="wheel"><circle cx="128" cy="70" r="14" fill="#0c2a3a"/><circle cx="128" cy="70" r="6" fill="#cfe9f8"/><rect x="127" y="58" width="2" height="24" fill="#cfe9f8"/></g>
+            </svg>
+            <h3>7-Seater / Pickup</h3>
+            <p>Full-size &amp; trucks</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2: package + add-ons -->
+      <div class="bk-step" id="step2">
+        <h2 class="bk-q">Choose your package</h2>
+        <p class="bk-summary" id="vehSummary"></p>
+        <div class="pkg-grid" id="pkgGrid"></div>
+        <h3 style="text-align:center;margin:6px 0 14px">Add-ons <span style="font-weight:400;color:var(--mist);font-size:0.9rem">(optional)</span></h3>
+        <div class="addons-list" id="addonsList"></div>
+        <p style="text-align:center;font-size:0.86rem;color:var(--mist);margin-top:16px">Prices marked “+” are starting rates and may vary with vehicle condition. A final price is confirmed after we assess the vehicle in person or through photos.</p>
+        <div class="bk-nav">
+          <button type="button" class="btn btn-outline" data-back="1">Back</button>
+          <button type="button" class="btn btn-primary" id="toStep3">Continue</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: details -->
+      <div class="bk-step" id="step3">
+        <h2 class="bk-q">What time works best?</h2>
+        <p class="bk-summary" id="finalSummary"></p>
+        <div class="bk-fields">
+          <div class="bk-field">
+            <label for="fday">Preferred day *</label>
+            <input type="date" id="fday" name="Preferred day" required>
+          </div>
+          <div class="bk-field">
+            <label for="ftime">Preferred time *</label>
+            <input type="time" id="ftime" name="Preferred time" required>
+          </div>
+          <div class="bk-field">
+            <label for="fname">Name *</label>
+            <input type="text" id="fname" name="Name" autocomplete="name" required>
+          </div>
+          <div class="bk-field">
+            <label for="fphone">Phone number *</label>
+            <input type="tel" id="fphone" name="Phone" autocomplete="tel" required>
+          </div>
+          <div class="bk-field full">
+            <label for="faddr">Address *</label>
+            <input type="text" id="faddr" name="Address" autocomplete="street-address" required>
+          </div>
+          <div class="bk-field full">
+            <label for="fnotes">Notes — backup days &amp; times / anything else you'd like us to know</label>
+            <textarea id="fnotes" name="Notes" placeholder="If your preferred date/time isn't available, what other days and times work for you? Also, is there anything else we should know?"></textarea>
+          </div>
+        </div>
+        <input type="hidden" name="Estimated total" id="totalField">
+        <div class="bk-total" id="bkTotal"></div>
+        <div class="bk-nav">
+          <button type="button" class="btn btn-outline" data-back="2">Back</button>
+          <button type="submit" class="btn btn-primary" id="submitBtn">Submit booking request</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- SUCCESS -->
+    <div class="bk-success" id="bkSuccess">
+      <div style="font-size:3rem;margin-bottom:10px">✅</div>
+      <h2>Thank you for your submission!</h2>
+      <p>We'll get back to you as soon as we can. In the meantime, check out some of our recent work:</p>
+      <div class="bk-success-btns">
+        <a href="gallery.html" class="btn btn-primary">View gallery</a>
+        <a href="https://www.tiktok.com/@elitefinishauto?lang=en" target="_blank" rel="noopener" class="btn btn-outline">TikTok</a>
+        <a href="https://www.instagram.com/elitefinishauto519/" target="_blank" rel="noopener" class="btn btn-outline">Instagram</a>
+      </div>
+      <p style="margin-top:24px;font-size:0.9rem;color:var(--mist)">For anything urgent, call or text <a href="tel:+14167060727" style="color:var(--accent-dark);font-weight:600">(416) 706-0727</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand"><img class="mark" width="34" height="34" src="images/bluestar.png" alt="Elite Finish Auto logo"> Elite Finish Auto</div>
+        <p style="color:rgba(255,255,255,0.55);max-width:300px">Premium mobile car detailing brought to your driveway across London, Ontario and the surrounding areas.</p>
+        <div class="socials">
+          <a class="social-link" href="https://www.instagram.com/elitefinishauto519/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2777-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7888-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1283.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0062-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.0044 11.977.0017 8.718.0078 8.31.0218 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.4074-.5606-.216-.96-.4771-1.3819-.8953-.422-.4182-.6845-.8161-.9019-1.3756-.1644-.4234-.3623-1.0583-.4171-2.2282-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.0508-1.169.2456-1.805.4076-2.2282.216-.5613.4762-.96.8954-1.3816.4192-.4217.816-.6841 1.3756-.9015.4234-.1648 1.0583-.3617 2.2277-.4174 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.4074.5612.216.96.4763 1.3816.8954s.6842.8155.9015 1.3756c.1648.4232.3617 1.0578.4173 2.2273.06 1.2655.0745 1.6447.0788 4.848.0042 3.2033-.0085 3.5835-.0593 4.848-.0508 1.169-.2453 1.8053-.4074 2.2282-.216.5606-.4763.96-.8955 1.3816-.4192.4217-.816.6841-1.3756.9015-.4231.1648-1.0583.3617-2.2272.4174-1.2655.0595-1.6447.072-4.8483.079-3.2036.007-3.5834-.0053-4.8479-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0033a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0033"/></svg></a>
+          <a class="social-link" href="https://www.tiktok.com/@elitefinishauto?lang=en" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+          <a class="social-link" href="https://www.youtube.com/@EliteFinishAuto" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          <a class="social-link" href="https://www.facebook.com/EliteFinishAuto519" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Service Areas</h4><ul>
+        <li><a href="masonville-car-detailing.html">Masonville Detailing</a></li>
+        <li><a href="fox-hollow-car-detailing.html">Fox Hollow Detailing</a></li>
+        <li><a href="sunningdale-car-detailing.html">Sunningdale Detailing</a></li>
+        <li><a href="hyde-park-car-detailing.html">Hyde Park Detailing</a></li>
+        <li>All of London &amp; surrounding areas</li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="blog/index.html">Detailing Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div><h4>Get in touch</h4><ul>
+        <li><a href="tel:+14167060727">(416) 706-0727</a></li>
+        <li><a href="mailto:elitefinishauto519@gmail.com">elitefinishauto519@gmail.com</a></li>
+        <li>London, ON &amp; surrounding areas</li>
+        <li>Mon–Sun · 8am–10pm</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Elite Finish Auto. All rights reserved.</span>
+      <span>Mobile car detailing · London, Ontario &amp; surrounding areas</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu
+  document.getElementById('toggle').addEventListener('click', function () {
+    document.getElementById('menu').classList.toggle('open');
+  });
+
+  var PRICING = {
+    sedan: { label: "Sedan", packages: [
+      { name:"Cabin Care",     price:"$120+", base:120, plus:true, tag:"Interior" },
+      { name:"Showroom Shine", price:"$90+",  base:90,  plus:true, tag:"Exterior" },
+      { name:"Full Detail",    price:"$190+", base:190, plus:true, tag:"Most popular", old:"$210", save:"Save $20" }
+    ]},
+    suv: { label: "SUV", packages: [
+      { name:"Cabin Care",     price:"$150+", base:150, plus:true, tag:"Interior" },
+      { name:"Showroom Shine", price:"$100+", base:100, plus:true, tag:"Exterior" },
+      { name:"Full Detail",    price:"$230+", base:230, plus:true, tag:"Most popular", old:"$250", save:"Save $20" }
+    ]},
+    large: { label: "7-Seater / Pickup / Full-size", packages: [
+      { name:"Cabin Care",     price:"$170+", base:170, plus:true, tag:"Interior" },
+      { name:"Showroom Shine", price:"$110+", base:110, plus:true, tag:"Exterior" },
+      { name:"Full Detail",    price:"$260+", base:260, plus:true, tag:"Most popular", old:"$280", save:"Save $20" }
+    ]}
+  };
+  var ADDONS = [
+    { name:"Iron Decon & Clay Bar", price:"$60", base:60 },
+    { name:"Odour Removal",         price:"$30", base:30 },
+    { name:"Engine Bay Cleaning",   price:"$50", base:50 }
+  ];
+
+  var currentVeh = null;
+  var vehicleField = document.getElementById('vehicleField');
+
+  function setStep(n){
+    document.querySelectorAll('.bk-step').forEach(function(s){ s.classList.remove('active'); });
+    document.getElementById('step'+n).classList.add('active');
+    document.querySelectorAll('.steps-bar .stp').forEach(function(st){
+      var d = parseInt(st.getAttribute('data-step'),10);
+      st.classList.toggle('active', d===n);
+      st.classList.toggle('done', d<n);
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function buildAddons(){
+    var wrap = document.getElementById('addonsList');
+    wrap.innerHTML = '';
+    ADDONS.forEach(function(a){
+      var id = 'addon-'+a.name.replace(/[^a-z]/gi,'').toLowerCase();
+      var lbl = document.createElement('label');
+      lbl.className = 'addon-check';
+      lbl.innerHTML = '<input type="checkbox" name="Add-ons" value="'+a.name+' ('+a.price+')" id="'+id+'">'
+        + '<span style="flex:1">'+a.name+'</span>'
+        + '<span style="font-weight:600;color:var(--accent-dark)">'+a.price+'</span>';
+      wrap.appendChild(lbl);
+    });
+  }
+
+  function selectVehicle(key){
+    if(!PRICING[key]) return;
+    currentVeh = key;
+    vehicleField.value = PRICING[key].label;
+    document.getElementById('vehSummary').textContent = 'Vehicle: ' + PRICING[key].label;
+    // build package options
+    var grid = document.getElementById('pkgGrid');
+    grid.innerHTML = '';
+    PRICING[key].packages.forEach(function(p, i){
+      var id = 'pkg-'+i;
+      var div = document.createElement('div');
+      div.className = 'pkg-opt';
+      var priceHtml = (p.old ? '<span class="pk-old">'+p.old+'</span> ' : '') + p.price;
+      div.innerHTML =
+        '<input type="radio" name="Package" id="'+id+'" value="'+p.name+' ('+p.price+')">'
+        + '<label for="'+id+'">'
+        +   '<span class="pk-tag">'+p.tag+'</span>'
+        +   '<div class="pk-name">'+p.name+'</div>'
+        +   '<div class="pk-price">'+priceHtml+'</div>'
+        +   (p.save ? '<div class="pk-save-row"><span class="pk-save">'+p.save+'</span></div>' : '')
+        + '</label>';
+      grid.appendChild(div);
+    });
+    buildAddons();
+  }
+
+  // Step 1: vehicle cards
+  document.querySelectorAll('.veh-card').forEach(function(card){
+    function pick(){ selectVehicle(card.getAttribute('data-veh')); setStep(2); }
+    card.addEventListener('click', pick);
+    card.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); pick(); } });
+  });
+
+  // Back buttons
+  document.querySelectorAll('[data-back]').forEach(function(b){
+    b.addEventListener('click', function(){ setStep(parseInt(b.getAttribute('data-back'),10)); });
+  });
+
+  // Step 2 -> 3
+  document.getElementById('toStep3').addEventListener('click', function(){
+    var pkgRadio = document.querySelector('input[name="Package"]:checked');
+    if(!pkgRadio){ alert('Please choose a package to continue.'); return; }
+    var pkgIndex = parseInt(pkgRadio.id.replace('pkg-',''),10);
+    var pkg = PRICING[currentVeh].packages[pkgIndex];
+    var addonEls = Array.prototype.slice.call(document.querySelectorAll('input[name="Add-ons"]:checked'));
+    var addons = addonEls.map(function(c){ return c.value; });
+    // calculate total
+    var total = pkg.base;
+    var showPlus = !!pkg.plus;
+    addonEls.forEach(function(c){
+      var a = ADDONS.find(function(x){ return c.value.indexOf(x.name)===0; });
+      if(a) total += a.base;
+    });
+    var totalStr = '$' + total + (showPlus ? '+' : '');
+    document.getElementById('finalSummary').textContent =
+      vehicleField.value + ' · ' + pkg.name + (addons.length ? ' · + ' + addons.length + ' add-on' + (addons.length>1?'s':'') : '');
+    document.getElementById('totalField').value = totalStr;
+    document.getElementById('bkTotal').innerHTML =
+      '<div class="bt-row"><span class="bt-label">Estimated total</span><span class="bt-amt">' + totalStr + '</span></div>'
+      + (showPlus ? '<div class="bt-note">Starting estimate — the “+” means the final price is confirmed after we assess the vehicle in person or by photos.</div>' : '');
+    setStep(3);
+  });
+
+  // Preselect from query params (?vehicle=sedan&package=Full Detail)
+  (function(){
+    var params = new URLSearchParams(window.location.search);
+    var v = params.get('vehicle');
+    if(v && PRICING[v]){
+      selectVehicle(v);
+      var pk = params.get('package');
+      if(pk){
+        document.querySelectorAll('input[name="Package"]').forEach(function(r){
+          if(r.value.toLowerCase().indexOf(pk.toLowerCase())===0) r.checked = true;
+        });
+      }
+      setStep(2);
+    }
+  })();
+
+  // Submit via Formspree (AJAX) so the user stays on-site
+  var form = document.getElementById('bookForm');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if(!document.querySelector('input[name="Package"]:checked')){ alert('Please go back and choose a package.'); setStep(2); return; }
+    var btn = document.getElementById('submitBtn');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    fetch(form.action, { method:'POST', body:new FormData(form), headers:{ 'Accept':'application/json' } })
+      .then(function(res){
+        if(res.ok){
+          form.style.display = 'none';
+          document.querySelector('.steps-bar').style.display = 'none';
+          document.querySelector('.booking-head').style.display = 'none';
+          document.getElementById('bkSuccess').classList.add('show');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          btn.disabled = false; btn.textContent = 'Submit booking request';
+          alert('Sorry, something went wrong sending your request. Please call or text (416) 706-0727.');
+        }
+      })
+      .catch(function(){
+        btn.disabled = false; btn.textContent = 'Submit booking request';
+        alert('Sorry, something went wrong sending your request. Please call or text (416) 706-0727.');
+      });
+  });
+</script>
+</body>
+</html>
