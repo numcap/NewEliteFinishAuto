@@ -25,7 +25,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def main():
     handler = http.server.SimpleHTTPRequestHandler
     # allow_reuse_address avoids "address already in use" if you restart quickly
-    socketserver.TCPServer.allow_reuse_address = True
+    socketserver.TCPServer.allow22_reuse_address = True
 
     with socketserver.TCPServer(("", PORT), handler) as httpd:
         url = f"http://localhost:{PORT}/index.html"
