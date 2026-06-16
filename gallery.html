@@ -119,7 +119,14 @@
   (function(){
     var grid = document.getElementById('galleryGrid');
     var MAX = 30;
-    for (var i = 1; i <= MAX; i++) {
+    // Show newest photos first, then the rest in order. Any number not listed
+    // here is appended automatically below, so adding gallery-N.jpg still works.
+    var FEATURED = [16, 17, 18];
+    var order = FEATURED.slice();
+    for (var n = 1; n <= MAX; n++) {
+      if (FEATURED.indexOf(n) === -1) order.push(n);
+    }
+    order.forEach(function(i){
       var item = document.createElement('div');
       item.className = 'g-item';
       var img = document.createElement('img');
@@ -129,7 +136,7 @@
       img.src = 'images/gallery-' + i + '.jpg';
       item.appendChild(img);
       grid.appendChild(item);
-    }
+    });
   })();
 </script>
 </body>
