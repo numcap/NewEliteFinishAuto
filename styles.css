@@ -701,3 +701,139 @@ body { overflow-x: clip; max-width: 100%; }
 
 /* Offset anchored sections below the sticky nav */
 section[id] { scroll-margin-top: 84px; }
+
+/* Prominent Closure Banner */
+.closure-hero-banner {
+  background: linear-gradient(180deg, rgba(12, 42, 58, 0.08) 0%, rgba(12, 42, 58, 0.02) 100%);
+  padding: 32px 16px;
+}
+
+.closure-card {
+  max-width: 920px;
+  margin: 0 auto;
+  background: #0c2a3a; /* Dark navy brand color */
+  border-radius: 16px;
+  border-left: 6px solid #2e9bd6; /* Signature blue highlight */
+  box-shadow: 0 12px 32px rgba(12, 42, 58, 0.18);
+  padding: 36px 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  color: #ffffff;
+}
+
+.closure-icon-wrap {
+  background: rgba(46, 155, 214, 0.15);
+  border: 1px solid rgba(46, 155, 214, 0.35);
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.closure-icon {
+  width: 30px;
+  height: 30px;
+  stroke: #2e9bd6;
+}
+
+.closure-text {
+  flex: 1;
+}
+
+.closure-tag {
+  display: inline-block;
+  background: #2e9bd6;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.closure-text h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+  line-height: 1.25;
+}
+
+.closure-text p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+  max-width: 680px;
+}
+
+.closure-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-closure {
+  background: #2e9bd6;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  display: inline-block;
+}
+
+.btn-closure:hover {
+  opacity: 0.9;
+}
+
+.btn-closure-ghost {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  display: inline-block;
+}
+
+.btn-closure-ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .closure-card {
+    flex-direction: column;
+    padding: 24px 20px;
+    gap: 18px;
+  }
+  
+  .closure-text h2 {
+    font-size: 1.45rem;
+  }
+
+  .closure-text p {
+    font-size: 0.95rem;
+  }
+
+  .closure-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-closure, .btn-closure-ghost {
+    text-align: center;
+    width: 100%;
+  }
+}
